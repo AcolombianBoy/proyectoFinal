@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box; /* Asegura que el padding y el border se incluyan en el ancho y alto total */
+}
+
+body {
+    background-color: #abd8ff;
+    margin: 0;
+    font-family:sans-serif;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+h1 {
+    font-size:40px;
+    color:white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+p {
+    font-style: italic;
+    font-size: 20px;
+    text-align:center;
+    color: black;
+}
+
+

@@ -1,0 +1,75 @@
+.info {
+    background:
+    repeating-linear-gradient(
+        -55deg,
+        #ffffff 0px,
+        #ffffff 30px,
+        #d5edff 10px,
+        #d5edff 60px
+    );
+    width: 35%;
+    height: 1110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px black solid;
+}
+.presentacion ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.presentacion li {
+    height: 35px;
+    display:flex;
+    flex-direction: row;
+}
+.presentacion a{
+    color: black;
+    align-self: center;
+    margin-left: 10px;
+
+}
+.presentacion h3 {
+    align-self: center;
+    margin-left: 10px;
+}
+.presentacion h2 {
+    align-self: center;
+    margin-left: 10px;
+}
+.presentacion img {
+    width: 30px;
+    height: 30px;
+}
+.titulo {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.titulo hr {
+    align-self: center;
+    width: 130px;
+    height: 0;
+    border: 1.50px solid;
+}
+#social hr {
+    width: 120px;
+}
+.perfil {
+    height: 7cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.imagen_perfil {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px black solid;
+    background-image: url(/img/perfil.png);
+        background-size: cover;
+}

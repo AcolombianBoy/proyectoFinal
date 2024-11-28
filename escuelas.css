@@ -1,0 +1,49 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+main hr {
+    width: 100%;
+}
+section.info {
+    padding: 50px;
+    text-align: center;
+}
+    
+
+/* Seccion de escuelas */
+.escuela {
+    display: flex;
+    flex-direction: column;
+}
+.title h1 { /*Seccion del titulo */
+    width: 100%;
+    position: relative;
+        left: 50px;
+    text-decoration: underline;
+}
+.cursos { /* seccion de cursos */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 30px;
+}
+.cursos div {
+    width: 400px;
+    height:70px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+}
+.cursos a {
+    color: black;
+    text-decoration: none   ;
+}
+.cursos a :hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

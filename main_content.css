@@ -1,0 +1,138 @@
+/*contenedor principal */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+/* titulo principal */
+.main_titulo h1{
+    padding-inline: 100px;
+    padding-block: 20px;
+    text-align: center;
+    background: linear-gradient( blue, #c8e8ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    padding-bottom: 100px;
+}
+/* primera seccion de informacion (carta de presentacion de la pagina) */
+#info {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(#c8e8ff,white);
+    gap: 50px;
+}
+#info div {
+    height: 310px;
+}
+#info h1 {
+    background: linear-gradient( blue, #c8e8ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+}
+#info span {
+    font-size: 90px;
+    font-family: fantasy;
+    font-style: italic;
+    background: linear-gradient( rgb(0, 106, 142), #c8e8ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+#info p {
+    padding-inline: 200px;
+    font-size: 30px;
+}
+#info button {
+    width: 200px;
+    height: 50px;
+    align-self: center;
+}
+
+/*segunda seccion de informacion  (planes de compra*/
+#info2{ /*contenedor principal */
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(#c8e8ff,white);
+    gap: 50px;
+    padding-bottom: 100px;
+}
+.main_info2 { /*contenedor padre */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card { /* tarjetas con informacion de los planes */
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 400px;
+    height: 700px;
+    background-color: aliceblue;
+    border: 3px black solid;
+    flex-direction: column;
+    align-items: center;
+}
+#info2 h1 {
+    background: linear-gradient( blue, #c8e8ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+}
+#info2 p {
+    font-size: 20px;
+    text-align: left;
+}
+#info2 h3 {
+    font-size: 30px;
+}
+
+/*seccion de informacion 3 */
+
+#info3 { /*contenedor principal */
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(#c8e8ff,white);
+    gap: 50px;
+    padding-bottom: 100px; 
+}
+.escuelas { /* contenedor de tarjetas de las escuelas disponibles */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.escuela { /* escuelas disponibles */
+    width: 400px;
+    background-color: white;
+    border: solid black 3px;
+    padding: 20px;
+}
+#info3 h1 {
+    background: linear-gradient( blue, #c8e8ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+}
